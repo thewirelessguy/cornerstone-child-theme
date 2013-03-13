@@ -1,0 +1,15 @@
+/*
+Theme Name: cornerstonechildtheme
+Description: Child theme for the Cornerstone starter theme 
+Author: Stephen Mullen
+Author URI: http: //www.thewirelessguy.co.uk
+Template: cornerstone
+Version: 1.0
+*/
+
+@import url(../cornerstone/style.css);
+
+.alignleft {display: inline; float: left; margin-right: 1.625em;}
+.alignright {display: inline; float: right; margin-left: 1.625em;}
+.aligncenter {clear: both; display: block; margin-left: auto; margin-right: auto;}
+.widget_nav_menu ul{list-style:none}
