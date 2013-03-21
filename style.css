@@ -12,14 +12,16 @@ Version: 1.0
 .alignleft {display: inline; float: left; margin-right: 1.625em;}
 .alignright {display: inline; float: right; margin-left: 1.625em;}
 .aligncenter {clear: both; display: block; margin-left: auto; margin-right: auto;}
-.widget_nav_menu ul{list-style:none}
+
+.widget_nav_menu ul,.widget_recent_entries ul{list-style:none}
 
 .top-bar .name .sitetitle a {
 	font-size: 1.0625em;
 	font-weight: bold;
 	color: #fff;
-	width: 50%;
 	display: block;
 	padding: 0 15px;
 	line-height: 45px;
 }
+
+.entry ul{margin-left:2rem;}
