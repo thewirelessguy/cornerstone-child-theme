@@ -26,7 +26,11 @@ Version: 1.0
 
 #content .sticky {position:static;}
 
-.entry ul{margin-left:2rem;}
+.orbit-container {background: transparent;}
+
+#content,.sidebar{margin-top: 1em;}
+
+.entry-content ul{margin-left:2em;}
 
 /* We use this media query to add styles to any device that supports media queries */
 @media only screen { }
