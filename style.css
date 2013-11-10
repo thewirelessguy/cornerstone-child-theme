@@ -30,7 +30,7 @@ Version: 1.0
 
 #content,.sidebar{margin-top: 1em;}
 
-.entry-content ul:not([class*="block-grid-"]),.widget_archive ul{margin-left:2em;}
+.entry-content ul:not([class*="block-grid-"]):not(.clearing-thumbs),.widget_archive ul{margin-left:2em;}
 
 /* We use this media query to add styles to any device that supports media queries */
 @media only screen { }
