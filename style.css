@@ -24,8 +24,6 @@ Version: 1.0
 	line-height: 45px;
 }
 
-#content .sticky {position:static;}
-
 .orbit-container {background: transparent;}
 
 #content,.sidebar{margin-top: 1em;}
