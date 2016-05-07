@@ -7,28 +7,33 @@ Template: cornerstone
 Version: 1.0
 */
 
-@import url(../cornerstone/style.css);
-
 .alignleft {display: inline; float: left; margin-right: 1.625em;}
 .alignright {display: inline; float: right; margin-left: 1.625em;}
 .aligncenter {clear: both; display: block; margin-left: auto; margin-right: auto;}
 
-.widget_nav_menu ul,.widget_recent_entries ul,.clearing-thumbs{list-style:none}
-
-.top-bar .title-area .name a {
-	font-size: 1.0625em;
-	font-weight: bold;
-	color: #fff;
-	display: block;
-	padding: 0 15px;
-	line-height: 45px;
-}
-
-.orbit-container {background: transparent;}
+.widget_nav_menu ul,.widget_recent_entries ul{list-style:none}
 
 #content,.sidebar{margin-top: 1em;}
 
-.entry-content ul:not([class*="block-grid-"]):not(.clearing-thumbs),.widget_archive ul{margin-left:2em;}
+.entry-content ul,.widget_archive ul{
+	margin-left:2em;
+}
+
+.screen-reader-text{
+	left:-1000em;
+	position: absolute;
+}
+
+/* Pagination */
+.pagination li {
+   display: inline-block; /* make page numbers visible on mobile devices */
+}
+
+/* Orbit Slider */
+.orbit-container {
+	background: transparent;
+	height: auto !important; /* Change container height based on height of image */
+}
 
 /* We use this media query to add styles to any device that supports media queries */
 @media only screen { }
