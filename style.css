@@ -35,6 +35,10 @@ Version: 1.0
 	height: auto !important; /* Change container height based on height of image */
 }
 
+.off-canvas-content{
+	box-shadow: none;
+}
+
 /* We use this media query to add styles to any device that supports media queries */
 @media only screen { }
 
